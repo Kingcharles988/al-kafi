@@ -183,6 +183,7 @@ function renderHome(){
   <p class="lead">It’s ofc not a substitute for learning the original book. But I’ve tried to make it an easier intro to get our foot in the door, in this brain-rotted world of ours.</p>
   <p class="lead">To save time, it only includes the strong hadiths, organised for daily life.</p>
   <p class="lead">Ofc I’m not a scholar and there may be some stuff missing, but I tried my best. Enjoy!</p>
+  <p style="font-size:.8rem;color:var(--muted,#6b746f);margin-top:-4px">Any mistakes, please email <a href="mailto:aliwarisnaqvi@gmail.com">aliwarisnaqvi@gmail.com</a>.</p>
   <div class="note"><b>How to use it:</b> pick a topic. Read “The short version” for the main points in 30 seconds. Scroll down for every hadith as a one-line lesson, and tap “Read the hadith” if you want the full text.</div>
   <div class="stats"><div class="stat"><b>${s.topics}</b><span>bite-sized topics</span></div><div class="stat"><b>${s.main.toLocaleString()}</b><span>one-line lessons</span></div><div class="stat"><b>${s.strong.toLocaleString()}</b><span>strong hadiths in total</span></div></div>`;
   const card=t=>`<a class="card" href="#${t.id}"><b>${esc(t.t)}</b><small>${esc(t.big)}</small><i>${t.n} hadiths</i></a>`;
